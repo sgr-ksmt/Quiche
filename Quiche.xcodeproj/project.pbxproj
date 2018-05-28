@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16277B1F2073EDBC005DB6FB /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16277B1E2073EDBC005DB6FB /* Object.swift */; };
+		16731AE320BC38BF007E169B /* Query+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16731AE220BC38BF007E169B /* Query+Ex.swift */; };
+		16731AE520BC3BF0007E169B /* Quiche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16731AE420BC3BF0007E169B /* Quiche.swift */; };
 		16EF0D832073C03000A42EC0 /* Quiche.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EF0D792073C03000A42EC0 /* Quiche.framework */; };
 		16EF0D882073C03000A42EC0 /* QuicheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF0D872073C03000A42EC0 /* QuicheTests.swift */; };
 		16EF0D8A2073C03000A42EC0 /* Quiche.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EF0D7C2073C03000A42EC0 /* Quiche.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,7 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16277B1E2073EDBC005DB6FB /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		16731AE220BC38BF007E169B /* Query+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Query+Ex.swift"; sourceTree = "<group>"; };
+		16731AE420BC3BF0007E169B /* Quiche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiche.swift; sourceTree = "<group>"; };
 		16EF0D792073C03000A42EC0 /* Quiche.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quiche.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EF0D7C2073C03000A42EC0 /* Quiche.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiche.h; sourceTree = "<group>"; };
 		16EF0D7D2073C03000A42EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,7 +110,8 @@
 		16EF0D952073C08300A42EC0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				16277B1E2073EDBC005DB6FB /* Object.swift */,
+				16731AE220BC38BF007E169B /* Query+Ex.swift */,
+				16731AE420BC3BF0007E169B /* Quiche.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -270,7 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16277B1F2073EDBC005DB6FB /* Object.swift in Sources */,
+				16731AE520BC3BF0007E169B /* Quiche.swift in Sources */,
+				16731AE320BC38BF007E169B /* Query+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
