@@ -1,2 +1,2 @@
 # Quiche
-Quiche makes handling Cloud Firestore model easy.
+Type-safe Firestore Query for Swift.
